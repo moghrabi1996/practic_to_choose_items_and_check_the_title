@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NewOpenSouqTestNg by groups]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GRP-1,2(failed)">
+    <groups>
+      <run>
+        <include name="1"/>
+        <include name="2"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Bmw">
+        <methods>
+          <include name="check_all_contains_char"/>
+          <include name="chose_the_car"/>
+        </methods>
+      </class> <!-- Bmw -->
+    </classes>
+  </test> <!-- GRP-1,2(failed) -->
+</suite> <!-- Failed suite [NewOpenSouqTestNg by groups] -->
